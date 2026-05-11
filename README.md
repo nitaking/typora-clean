@@ -14,10 +14,10 @@ Japanese-first.
 
 ## Themes
 
-| Name | File | Font | Status |
-|---|---|---|---|
-| **Crisp** | `crisp.css` | Gothic (sans-serif) | ✅ Available |
-| **Crisp Mincho** | `crisp-mincho.css` | Mincho (serif) | ✅ Available |
+| Name | File | Font |
+|---|---|---|
+| **Crisp** | `crisp.css` | Gothic (sans-serif) | 
+| **Crisp Mincho** | `crisp-mincho.css` | Mincho (serif) | 
 
 * * *
 
