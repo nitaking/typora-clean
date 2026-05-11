@@ -1,0 +1,15 @@
+[tasks.release]
+description = "Create a GitHub release with CSS assets zipped"
+run = """
+#!/usr/bin/env bash
+set -e
+VERSION=${1:-}
+if [ -z "$VERSION" ]; then
+  echo "Usage: mise run release <version>  (e.g. v1.1.0)"
+  exit 1
+fi
+ZIP="typora-themes-${VERSION}.zip"
+zip "$ZIP" crisp-gothic.css crisp-mincho.css
+gh release create "$VERSION" "$ZIP" --title "$VERSION" --generate-notes
+rm "$ZIP"
+"""
