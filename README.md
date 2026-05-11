@@ -1,4 +1,4 @@
-# Typora - Crisp
+# Crisp Theme for Typora
 
 *A minimal light theme for Typora. Pure white · Generous spacing · Built for reading.*
 
