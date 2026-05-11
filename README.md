@@ -6,7 +6,7 @@
 
 > Clarity through restraint. Remove everything that competes with your words.
 
-A Typora theme inspired by note's clean and readable writing experience.
+A [Typora](https://typora.io) theme inspired by [note](https://note.com)'s clean and readable writing experience.
 This project is unofficial and is not affiliated with, endorsed by note.
 Japanese-first.
 
@@ -16,7 +16,7 @@ Japanese-first.
 
 | Name | File | Font |
 |---|---|---|
-| **Crisp** | `crisp.css` | Gothic (sans-serif) | 
+| **Crisp Gothic** | `crisp-gothic.css` | Gothic (sans-serif) | 
 | **Crisp Mincho** | `crisp-mincho.css` | Mincho (serif) | 
 
 * * *
@@ -37,9 +37,9 @@ Japanese-first.
 ### Typora
 
 1. Open Typora → **Preferences** → **Appearance** → **Open Theme Folder**
-2. Copy `crisp.css` into the themes folder
+2. Copy `crisp-gothic.css` (and/or `crisp-mincho.css`) into the themes folder
 3. Restart Typora
-4. Select **Crisp** from **Preferences → Appearance → Themes**
+4. Select **Crisp Gothic** or **Crisp Mincho** from **Preferences → Appearance → Themes**
 
 * * *
 
