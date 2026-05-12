@@ -24,14 +24,10 @@ Japanese-first.
 
 ### Crisp Gothic
 
-![crisp-gothic-1.png](assets/crisp-gothic-1.png)
-![crisp-gothic-2.png](assets/crisp-gothic-2.png)
-![crisp-gothic-3.png](assets/crisp-gothic-3.png)
+![crisp-gothic.png](assets/crisp-gothic.png)
 
 ### Crisp Mincho
-![crisp-mincho-1.png](assets/crisp-mincho-1.png)
-![crisp-mincho-2.png](assets/crisp-mincho-2.png)
-![crisp-mincho-3.png](assets/crisp-mincho-3.png)
+![crisp-mincho.png](assets/crisp-mincho.png)
 
 * * *
 
