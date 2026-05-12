@@ -1,3 +1,37 @@
+[tasks.link]
+description = "Symlink CSS files to Typora themes folder for development"
+run = """
+#!/usr/bin/env bash
+set -e
+THEMES_DIR="$HOME/Library/Application Support/abnerworks.Typora/themes"
+if [ ! -d "$THEMES_DIR" ]; then
+  THEMES_DIR="$HOME/Library/Application Support/Typora/themes"
+fi
+if [ ! -d "$THEMES_DIR" ]; then
+  echo "Typora themes folder not found"
+  exit 1
+fi
+REPO=$(cd "$(dirname "$0")" && pwd)
+for css in crisp-gothic.css crisp-mincho.css; do
+  ln -sf "$REPO/$css" "$THEMES_DIR/$css"
+  echo "linked: $THEMES_DIR/$css"
+done
+"""
+
+[tasks.unlink]
+description = "Remove symlinks from Typora themes folder"
+run = """
+#!/usr/bin/env bash
+THEMES_DIR="$HOME/Library/Application Support/abnerworks.Typora/themes"
+if [ ! -d "$THEMES_DIR" ]; then
+  THEMES_DIR="$HOME/Library/Application Support/Typora/themes"
+fi
+for css in crisp-gothic.css crisp-mincho.css; do
+  rm -f "$THEMES_DIR/$css"
+  echo "removed: $THEMES_DIR/$css"
+done
+"""
+
 [tasks.release]
 description = "Create a GitHub release with CSS assets zipped"
 run = """

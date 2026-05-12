@@ -137,6 +137,27 @@ li {
     margin: 0.35em 0;
 }
 
+.md-task-list-item,
+.task-list-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding-left: 0;
+}
+
+.md-task-list-item > input,
+.task-list-item > input {
+    flex-shrink: 0;
+    position: relative;
+    top: 2px;
+    margin: 0;
+}
+
+.md-task-list-item > p,
+.task-list-item > p {
+    margin: 0;
+}
+
 tt,
 code {
     background: var(--clean-code-bg);
