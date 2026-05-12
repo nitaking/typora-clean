@@ -1,3 +1,4 @@
+/* Variables */
 :root {
     --clean-bg: #ffffff;
     --clean-text: rgb(8, 19, 26);
@@ -23,6 +24,7 @@
     --monospace: SFMono-Regular, Consolas, Menlo, Courier, monospace;
 }
 
+/* Base */
 html {
     font-size: 18px;
 }
@@ -46,10 +48,12 @@ body {
     padding: 48px 40px 96px;
 }
 
+/* Paragraph */
 p {
     margin: 36px 0;
 }
 
+/* Headings */
 h1,
 h2,
 h3,
@@ -88,6 +92,7 @@ h6 {
     font-size: 1.05rem; /* 18.9px */
 }
 
+/* Links */
 a {
     color: var(--clean-link);
     text-decoration: underline;
@@ -99,6 +104,7 @@ a:hover {
     opacity: 0.75;
 }
 
+/* Inline */
 strong {
     font-weight: 700;
 }
@@ -107,12 +113,14 @@ em {
     font-style: italic;
 }
 
+/* Divider */
 hr {
     border: 0;
     border-top: 1px solid var(--clean-border);
     margin: 2.2em 0;
 }
 
+/* Blockquote */
 blockquote {
     margin: 1.6em 0;
     padding: 25px 36px;
@@ -127,6 +135,7 @@ blockquote p {
     margin: 0;
 }
 
+/* Lists */
 ul,
 ol {
     padding-left: 1.6em;
@@ -137,6 +146,7 @@ li {
     margin: 0.35em 0;
 }
 
+/* Task list */
 .md-task-list-item,
 .task-list-item {
     display: flex;
@@ -158,6 +168,7 @@ li {
     margin: 0;
 }
 
+/* Code */
 tt,
 code {
     background: var(--clean-code-bg);
@@ -186,6 +197,7 @@ pre code {
     font-family: var(--monospace);
 }
 
+/* Table */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -206,6 +218,7 @@ th {
     font-weight: 700;
 }
 
+/* Image */
 img {
     display: block;
     max-width: 100%;
@@ -213,6 +226,7 @@ img {
     border-radius: 6px;
 }
 
+/* Print */
 @media print {
     .typora-export * {
         -webkit-print-color-adjust: exact;
